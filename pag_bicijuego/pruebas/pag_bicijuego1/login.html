@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biciweb - Inicia Sesión</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    </head>
+
+    <body>
+        <main class="form-signin"></main>
+            <form class="form" onsubmit="return login()">
+                <h2 class="form-title">Inicia Sesión</h2>
+
+                <div class="form-container">
+                    <div class="form-group">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" class="form-input" placeholder=" " required="">
+                        <label for="email" class="form-label">Correo Electrónico</label>
+                        <span class="form-line"></span>
+                    </div>
+                    <div class="form-group">
+                        <span class="icon-eye"><i class="fa-solid fa-eye-slash"></i></span>
+                        <input type="password" id="password" class="form-input" placeholder=" " required="">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <span class="form-line"></span>
+                    </div>
+        
+                    <input type="submit" class="form-submit"  value="Entrar">
+
+                </div>
+
+                <p class="form-paragraph">¿Aún no tienes una cuenta? <a href="register.html" class="form-link">Registrate</a></p>
+                <p class="form-paragraph"><a href="index.html" class="form-link">Volver al Inicio</a></p>
+
+            </form>
+
+        </main>
+
+        <script src="js/login.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="js/eye.js"></script>
+
+     </body>
+
+</html>

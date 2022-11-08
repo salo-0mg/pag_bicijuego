@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BiciWeb | Perfil</title>
+    <link rel="shortcut icon" href="img/976655558805438484.webp" type="image/x-icon">
+    <link rel="stylesheet" href="css/profile.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800&display=swap" rel="stylesheet"> 
+</head>
+    <body>
+        <header>
+            <section class="contenedor sobre-nosotros"> 
+                <h2 class="titulo">Perfil            
+                    <form class="form" onsubmit="return logout()">
+                        <div class="form-container">
+                        <div class="form-group">
+                        </div>
+
+                        <input type="submit" class="form-submit" value="Cerrar Sesión">
+
+                        </div>
+                    </form>
+                </h2>
+                    <div class="contenedor-sobre-nosotros">
+                
+                        <div class="cardter">
+                            <img src="img/Sin título.png" alt="img/" style="width:100%">
+                            <h1 id="username">Username</h1>
+                            <br>
+                            <p class="title" id="nombres">Nombre Completo</p>
+                            <p id="email">Correo</p>
+                            <span  id="fecha_nacimiento">Fecha Nacimiento<span>
+                            
+                        </div>
+
+                        <div class="contenido-textos">
+                            <p>                
+                                <div class="card">
+                                    <h1>Puntaje más alto</h1>
+                                    <span></span>
+                                    <p class="title" id="high_score">Puntaje</p>
+                                </div>
+                            </p>
+                            <p>
+                                <div class="card">
+                                    <h1>Guías Consultadas</h1>
+                                    <p class="title" id="guias_completadas">--</p>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+            </section>
+ 
+        </header>
+    
+        <script src="js/profile.js"></script>
+    </body>
+</html>
